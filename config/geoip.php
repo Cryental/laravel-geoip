@@ -94,6 +94,11 @@ return [
             'locales' => ['en'],
         ],
 
+        'vgeopoint' => [
+            'class'  => \Torann\GeoIP\Services\vGeoPoint::class,
+            'key'    => env('VGEOPOINT_API_KEY'),
+            'secure' => true,
+        ],
     ],
 
     /*
